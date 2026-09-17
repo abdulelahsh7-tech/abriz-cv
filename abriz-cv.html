@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أبرز | ABRIZ — تحليل وكتابة السيرة الذاتية باحترافية</title>
+<meta name="description" content="أبرز خدمة بشرية متخصصة في تحليل السيرة الذاتية وإعادة كتابتها باحترافية وصياغة صادقة، متوافقة مع أنظمة ATS، وتسليمها بصيغتي Word وPDF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #0B1F33;
+    --teal: #13A89E;
+    --off-white: #F4F7FA;
+    --white: #FFFFFF;
+    --navy-soft: rgba(11,31,51,0.08);
+    --teal-soft: rgba(19,168,158,0.12);
+  }
+
+  *{ box-sizing: border-box; margin:0; padding:0; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    background: var(--off-white);
+    color: var(--navy);
+    direction: rtl;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.4;
+  }
+
+  .subhead, .btn, nav .brand-name{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+  }
+
+  small, .fine-print, .badge{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+  }
+
+  a{ text-decoration:none; color:inherit; }
+  ul{ list-style:none; }
+  img{ max-width:100%; display:block; }
+
+  .container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ===== NAV ===== */
+  header.nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(244,247,250,0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(11,31,51,0.08);
+  }
+
+  .nav-inner{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+
+  .brand{
+    display:flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .brand-name{
+    font-size: 22px;
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  .brand-latin{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--teal);
+    font-weight: 500;
+  }
+
+  .whatsapp-btn{
+    background: var(--teal);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items:center;
+    gap: 8px;
+    transition: background .2s ease, transform .2s ease;
+    white-space: nowrap;
+  }
+
+  .whatsapp-btn:hover{ background: #0f8f86; transform: translateY(-1px); }
+
+  .whatsapp-btn svg{ width:16px; height:16px; flex-shrink:0; }
+
+  /* ===== HERO ===== */
+  .hero{
+    padding: 90px 0 70px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-inner{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+  }
+
+  .hero h1{
+    font-size: clamp(30px, 4.2vw, 44px);
+    margin-bottom: 22px;
+  }
+
+  .hero p.lead{
+    font-size: 18px;
+    color: #3A4C5C;
+    max-width: 46ch;
+    margin-bottom: 34px;
+  }
+
+  .cta-primary{
+    display: inline-flex;
+    align-items:center;
+    gap: 10px;
+    background: var(--navy);
+    color: var(--white);
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: background .2s ease, transform .2s ease;
+  }
+
+  .cta-primary:hover{ background: #123a5e; transform: translateY(-2px); }
+
+  .cta-primary svg{ width:18px; height:18px; }
+
+  .hero-tags{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5B6B79;
+    font-weight: 500;
+  }
+
+  /* Resume illustration */
+  .resume-art{
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    margin-inline-start: auto;
+  }
+
+  .resume-card{
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 30px 60px -20px rgba(11,31,51,0.25);
+    padding: 28px 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .resume-avatar{
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--teal), #0d7d75);
+    margin-bottom: 16px;
+  }
+
+  .resume-line{
+    height: 10px;
+    border-radius: 6px;
+    background: var(--navy-soft);
+    margin-bottom: 10px;
+  }
+
+  .resume-line.short{ width: 55%; }
+  .resume-line.tealline{ background: var(--teal-soft); width: 70%; }
+  .resume-line.mid{ width: 85%; }
+
+  .resume-check{
+    position: absolute;
+    bottom: -18px;
+    left: -18px;
+    background: var(--teal);
+    width: 54px; height:54px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index: 3;
+    box-shadow: 0 10px 25px -8px rgba(19,168,158,0.6);
+  }
+
+  .resume-check svg{ width:26px; height:26px; }
+
+  .resume-bg-shape{
+    position: absolute;
+    inset: 0;
+    background: var(--teal-soft);
+    border-radius: 16px;
+    transform: translate(16px, 16px);
+    z-index: 1;
+  }
+
+  /* ===== reveal on scroll ===== */
+  .reveal{
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity .6s ease, transform .6s ease;
+  }
+  .reveal.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===== SECTION generic ===== */
+  section{ padding: 76px 0; }
+
+  .section-head{
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 44px;
+  }
+
+  .section-head h2{
+    font-size: clamp(24px, 3vw, 32px);
+    margin-bottom: 12px;
+  }
+
+  .section-head p{
+    color: #4A5A68;
+    font-size: 16px;
+  }
+
+  /* ===== WHY CARDS ===== */
+  .why-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .why-card{
+    background: var(--white);
+    border-radius: 14px;
+    padding: 32px 26px;
+    border: 1px solid rgba(11,31,51,0.06);
+  }
+
+  .why-icon{
+    width: 44px; height:44px;
+    border-radius: 10px;
+    background: var(--teal-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 18px;
+  }
+
+  .why-icon svg{ width:22px; height:22px; color: var(--teal); }
+
+  .why-card h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .why-card p{
+    color: #4A5A68;
+    font-size: 15px;
+  }
+
+  /* ===== HOW IT WORKS ===== */
+  .steps{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    position: relative;
+  }
+
+  .step{
+    background: var(--white);
+    border-radius: 14px;
+    padding: 26px 20px;
+    text-align:center;
+    position: relative;
+    border: 1px solid rgba(11,31,51,0.06);
+  }
+
+  .step-num{
+    width: 34px; height:34px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--white);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto 16px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .step p{
+    font-size: 14.5px;
+    color: #3A4C5C;
+  }
+
+  /* ===== PRICING ===== */
+  .price-wrap{
+    display:flex;
+    justify-content:center;
+  }
+
+  .price-card{
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 44px 40px;
+    max-width: 460px;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .price-card::before{
+    content:"";
+    position:absolute;
+    top:-60px; left:-60px;
+    width: 180px; height:180px;
+    background: radial-gradient(circle, rgba(19,168,158,0.35), transparent 70%);
+  }
+
+  .price-badge{
+    display:inline-block;
+    background: var(--teal);
+    color: var(--white);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .price-card h3{
+    color: var(--white);
+    font-size: 26px;
+    margin-bottom: 6px;
+    position: relative;
+    z-index:1;
+  }
+
+  .price-big{
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--teal);
+    margin-bottom: 26px;
+    position: relative;
+    z-index:1;
+  }
+
+  .price-list{
+    text-align: right;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .price-list li{
+    display:flex;
+    align-items:flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 15px;
+    color: #DCE6EE;
+  }
+
+  .price-list svg{
+    width:18px; height:18px;
+    flex-shrink:0;
+    margin-top:3px;
+    color: var(--teal);
+  }
+
+  .price-note{
+    font-size: 13.5px;
+    color: #9FB3C2;
+    margin-bottom: 26px;
+    position: relative;
+    z-index:1;
+  }
+
+  .price-card .cta-primary{
+    background: var(--teal);
+    width: 100%;
+    justify-content:center;
+    position: relative;
+    z-index:1;
+  }
+
+  .price-card .cta-primary:hover{ background: #0f8f86; }
+
+  /* ===== BEFORE / AFTER ===== */
+  .ba-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .ba-card{
+    border-radius: 14px;
+    padding: 28px 24px;
+  }
+
+  .ba-card.before{
+    background: var(--white);
+    border: 1px dashed rgba(11,31,51,0.25);
+  }
+
+  .ba-card.after{
+    background: var(--white);
+    border: 1px solid var(--teal);
+    box-shadow: 0 20px 40px -24px rgba(19,168,158,0.4);
+  }
+
+  .ba-label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    display:inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+  }
+
+  .ba-label.before-label{ background: var(--navy-soft); color: var(--navy); }
+  .ba-label.after-label{ background: var(--teal-soft); color: #0d7d75; }
+
+  .ba-card p{ font-size: 15px; color: #3A4C5C; }
+
+  .ba-note{
+    text-align:center;
+    margin-top: 22px;
+    font-size: 13.5px;
+    color: #6B7A87;
+  }
+
+  /* ===== CV ANALYZER TOOL ===== */
+  .analyzer-shell{
+    background: var(--white);
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgba(11,31,51,0.06);
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .cv-steps{
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 34px;
+    flex-wrap: wrap;
+  }
+
+  .cv-step{
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #9AA9B6;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--off-white);
+    transition: background .25s ease, color .25s ease;
+  }
+
+  .cv-step.active{ background: var(--navy); color: var(--white); }
+  .cv-step.done{ background: var(--teal-soft); color: #0d7d75; }
+
+  .upload-zone{
+    border: 2px dashed rgba(11,31,51,0.2);
+    border-radius: 16px;
+    padding: 44px 24px;
+    text-align: center;
+    transition: border-color .2s ease, background .2s ease;
+    cursor: pointer;
+  }
+
+  .upload-zone.drag-over{
+    border-color: var(--teal);
+    background: var(--teal-soft);
+  }
+
+  .upload-zone svg{
+    width: 40px; height:40px;
+    color: var(--teal);
+    margin: 0 auto 16px;
+  }
+
+  .upload-zone p{
+    font-size: 15.5px;
+    color: #3A4C5C;
+    margin-bottom: 20px;
+  }
+
+  .upload-hint{
+    font-size: 13px !important;
+    color: #8496A3 !important;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+  }
+
+  .file-selected{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background: var(--off-white);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-top: 18px;
+    font-size: 14.5px;
+    font-weight: 500;
+  }
+
+  .file-selected button{
+    color: #C0392B;
+    font-weight: 700;
+    font-size: 13.5px;
+    background:none;
+    border:none;
+    cursor:pointer;
+  }
+
+  .consent-check{
+    display:flex;
+    align-items:flex-start;
+    gap: 10px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #4A5A68;
+    cursor: pointer;
+    line-height: 1.6;
+  }
+
+  .consent-check input{
+    margin-top: 4px;
+    width: 18px; height:18px;
+    accent-color: var(--teal);
+    flex-shrink:0;
+    cursor:pointer;
+  }
+
+  #startAnalysisBtn{
+    width:100%;
+    justify-content:center;
+    margin-top: 22px;
+    border:none;
+    cursor:pointer;
+    font-size: 16px;
+    opacity: 1;
+    transition: background .2s ease, opacity .2s ease;
+  }
+
+  #startAnalysisBtn:disabled{
+    background: #B8C4CD;
+    cursor: not-allowed;
+  }
+
+  .upload-error{
+    margin-top: 16px;
+    background: rgba(192,57,43,0.08);
+    color: #C0392B;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .loading-state{
+    text-align:center;
+    padding: 30px 10px;
+  }
+
+  .spinner{
+    width: 46px; height:46px;
+    border-radius: 50%;
+    border: 4px solid var(--teal-soft);
+    border-top-color: var(--teal);
+    margin: 0 auto 22px;
+    animation: spin 0.9s linear infinite;
+  }
+
+  @keyframes spin{ to{ transform: rotate(360deg); } }
+
+  #loadingMessage{
+    font-size: 15.5px;
+    font-weight: 500;
+    color: #3A4C5C;
+  }
+
+  .score-overall{
+    text-align:center;
+    margin-bottom: 32px;
+  }
+
+  .score-circle{
+    width: 130px; height:130px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--white);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 auto 16px;
+    border: 6px solid var(--teal-soft);
+  }
+
+  .score-circle span{ font-size: 34px; }
+
+  #scoreLabel{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .score-breakdown{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+
+  .score-row{
+    background: var(--off-white);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+
+  .score-row-top{
+    display:flex;
+    justify-content:space-between;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #3A4C5C;
+    margin-bottom: 8px;
+  }
+
+  .score-row-top b{ color: var(--navy); font-weight: 700; }
+
+  .score-bar-track{
+    height: 6px;
+    border-radius: 4px;
+    background: rgba(11,31,51,0.1);
+    overflow:hidden;
+  }
+
+  .score-bar-fill{
+    height: 100%;
+    background: var(--teal);
+    border-radius: 4px;
+  }
+
+  .feedback-section{ margin-bottom: 26px; }
+
+  .feedback-section h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+
+  .feedback-section ul{ display:flex; flex-direction:column; gap: 10px; }
+
+  .feedback-section li{
+    display:flex;
+    align-items:flex-start;
+    gap: 10px;
+    font-size: 14.5px;
+    color: #3A4C5C;
+    background: var(--off-white);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+
+  .feedback-section li svg{ width:16px; height:16px; flex-shrink:0; margin-top:3px; }
+
+  .strengths li svg{ color: var(--teal); }
+  .weaknesses li svg{ color: #C0862B; }
+  .improvements li svg{ color: var(--navy); }
+
+  .result-cta-card{
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 16px;
+    padding: 30px 26px;
+    text-align:center;
+    margin-top: 10px;
+  }
+
+  .result-cta-card h3{
+    color: var(--white);
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .result-cta-card p{
+    color: #C6D4DE;
+    font-size: 14.5px;
+    margin-bottom: 22px;
+  }
+
+  .result-cta-card .cta-primary{
+    background: var(--teal);
+    width:100%;
+    justify-content:center;
+    margin-bottom: 12px;
+  }
+
+  .result-cta-card .cta-primary:hover{ background:#0f8f86; }
+
+  .btn-secondary{
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: var(--white);
+    width:100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-family:'Tajawal',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor:pointer;
+    transition: background .2s ease;
+  }
+
+  .btn-secondary:hover{ background: rgba(255,255,255,0.08); }
+
+  .analyzer-privacy-note{
+    text-align:center;
+    font-size: 13px;
+    color: #6B7A87;
+    max-width: 640px;
+    margin: 22px auto 0;
+    line-height:1.8;
+  }
+
+  @media (max-width: 560px){
+    .analyzer-shell{ padding: 26px 20px; }
+    .score-breakdown{ grid-template-columns: 1fr; }
+    .upload-zone{ padding: 32px 16px; }
+  }
+
+  /* ===== FAQ ===== */
+  .faq{ max-width: 720px; margin: 0 auto; }
+
+  .faq-item{
+    background: var(--white);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(11,31,51,0.06);
+    overflow: hidden;
+  }
+
+  .faq-q{
+    width: 100%;
+    text-align: right;
+    padding: 20px 22px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background: none;
+    border:none;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--navy);
+  }
+
+  .faq-q svg{
+    width: 18px; height:18px;
+    flex-shrink:0;
+    transition: transform .25s ease;
+  }
+
+  .faq-item.open .faq-q svg{ transform: rotate(45deg); }
+
+  .faq-a{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease, padding .3s ease;
+    padding: 0 22px;
+  }
+
+  .faq-item.open .faq-a{
+    max-height: 220px;
+    padding: 0 22px 20px;
+  }
+
+  .faq-a p{ font-size: 15px; color: #4A5A68; }
+
+  /* ===== FINAL CTA ===== */
+  .final-cta{
+    background: var(--navy);
+    color: var(--white);
+    text-align:center;
+    border-radius: 24px;
+    padding: 64px 32px;
+    margin: 0 24px;
+  }
+
+  .final-cta h2{ color: var(--white); font-size: clamp(24px,3.4vw,32px); margin-bottom: 14px; }
+  .final-cta p{ color: #B9C8D4; font-size: 16px; margin-bottom: 30px; }
+
+  .final-cta .cta-primary{
+    background: var(--teal);
+    font-size: 17px;
+    padding: 17px 40px;
+  }
+
+  .final-cta .cta-primary:hover{ background: #0f8f86; }
+
+  /* ===== FOOTER ===== */
+  footer{
+    text-align:center;
+    padding: 40px 24px 32px;
+    color: #5B6B79;
+    font-size: 14px;
+  }
+
+  footer .footer-brand{
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 860px){
+    .hero-inner{ grid-template-columns: 1fr; }
+    .resume-art{ margin: 0 auto; max-width: 260px; order: -1; }
+    .why-grid{ grid-template-columns: 1fr; }
+    .steps{ grid-template-columns: 1fr 1fr; }
+    .ba-grid{ grid-template-columns: 1fr; }
+    section{ padding: 56px 0; }
+    .hero{ padding: 56px 0 40px; }
+    .final-cta{ margin: 0 16px; padding: 48px 24px; }
+  }
+
+  @media (max-width: 480px){
+    .steps{ grid-template-columns: 1fr 1fr; }
+    .nav-inner{ padding: 12px 16px; }
+    .whatsapp-btn{ padding: 9px 14px; font-size: 14px; }
+    .whatsapp-btn span{ display:none; }
+    .price-card{ padding: 34px 24px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ opacity:1; transform:none; transition:none; }
+    html{ scroll-behavior:auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <span class="brand-name">أبرز</span>
+      <span class="brand-latin">ABRIZ</span>
+    </div>
+    <a class="whatsapp-btn" target="_blank" rel="noopener"
+       href="https://wa.me/966595092162?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9%20%D8%B6%D9%85%D9%86%20%D8%B9%D8%B1%D8%B6%20%D8%A7%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82.">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A8.4 8.4 0 0 0 3.9 16.4L3 21l4.7-.9a8.4 8.4 0 0 0 12-11.8ZM12 19a7 7 0 0 1-3.6-1l-.3-.2-2.8.5.5-2.7-.2-.3A7 7 0 1 1 12 19Zm3.9-5.2c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1-.1.2-.5.7-.6.8-.1.1-.2.1-.4 0-.2-.1-.9-.3-1.7-1-.6-.6-1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.3-.4.2-.3v-.3c0-.1-.5-1.2-.7-1.6-.2-.4-.4-.4-.5-.4h-.4c-.1 0-.4 0-.6.3-.2.2-.8.8-.8 2s.9 2.3 1 2.4c.1.2 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.1 1.5.1.5-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.2Z"/></svg>
+      <span>تواصل واتساب</span>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <h1 class="reveal">سيرتك لا تحتاج قالبًا جديدًا فقط، بل تحتاج تحليلًا صحيحًا</h1>
+      <p class="lead reveal">نحلل خبراتك ونكتب سيرة موجهة للوظيفة المستهدفة، واضحة لمسؤول التوظيف وقابلة للقراءة بواسطة أنظمة ATS.</p>
+      <a class="cta-primary reveal" target="_blank" rel="noopener"
+         href="https://wa.me/966595092162?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9%20%D8%B6%D9%85%D9%86%20%D8%B9%D8%B1%D8%B6%20%D8%A7%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82.">
+        حلّل سيرتي الآن
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 5l7 7-7 7M21 12H3"/></svg>
+      </a>
+      <p class="hero-tags reveal">تحليل بشري • صياغة صادقة • Word وPDF • تعديل واحد</p>
+    </div>
+
+    <div class="resume-art reveal">
+      <div class="resume-bg-shape"></div>
+      <div class="resume-card">
+        <div class="resume-avatar"></div>
+        <div class="resume-line short"></div>
+        <div class="resume-line tealline"></div>
+        <div class="resume-line mid"></div>
+        <div class="resume-line" style="width:60%"></div>
+        <div class="resume-line tealline" style="width:40%"></div>
+        <div class="resume-line mid"></div>
+      </div>
+      <div class="resume-check">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>لماذا أبرز؟</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        </div>
+        <h3>تحليل قبل الكتابة</h3>
+        <p>نفهم خبراتك والوظيفة المستهدفة قبل البدء.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5Z"/></svg>
+        </div>
+        <h3>محتوى يعبّر عنك</h3>
+        <p>نعيد صياغة إنجازاتك بصورة قوية من دون مبالغة أو معلومات غير حقيقية.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+        </div>
+        <h3>جاهزة للتقديم</h3>
+        <p>تحصل على سيرة واضحة ومتوافقة مع ATS بصيغتي Word وPDF.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>كيف تعمل الخدمة؟</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <p>ترسل سيرتك الحالية أو بياناتك.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">2</div>
+        <p>تحدد الوظيفة أو المجال المستهدف.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">3</div>
+        <p>نحلل المعلومات ونعيد كتابة السيرة.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">4</div>
+        <p>تستلم الملفات وتطلب تعديلًا واحدًا عند الحاجة.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container price-wrap">
+    <div class="price-card reveal">
+      <span class="price-badge">عرض الإطلاق</span>
+      <h3>مجانًا لأول 5 عملاء</h3>
+      <div class="price-big">يشمل التحليل والكتابة الكاملة</div>
+      <ul class="price-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>تحليل السيرة الحالية.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>إعادة كتابة المحتوى.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>تنسيق احترافي ومتوافق مع ATS.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>نسختا Word وPDF.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>تعديل واحد.</li>
+      </ul>
+      <p class="price-note">بعد انتهاء المقاعد المجانية: السعر المبدئي 50 ريالًا.</p>
+      <a class="cta-primary" target="_blank" rel="noopener"
+         href="https://wa.me/966595092162?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9%20%D8%B6%D9%85%D9%86%20%D8%B9%D8%B1%D8%B6%20%D8%A7%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82.">
+        احجز مقعدك عبر واتساب
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="before-after" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>قبل وبعد</h2>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-card before reveal">
+        <span class="ba-label before-label">قبل</span>
+        <p>مسؤول عن خدمة العملاء والرد على الاستفسارات.</p>
+      </div>
+      <div class="ba-card after reveal">
+        <span class="ba-label after-label">بعد</span>
+        <p>قدّمت الدعم اليومي للعملاء وعالجت الاستفسارات بكفاءة، بما ساهم في تحسين سرعة الاستجابة وجودة تجربة العميل.</p>
+      </div>
+    </div>
+    <p class="ba-note reveal">الصياغة النهائية تعتمد على المعلومات والنتائج الحقيقية لكل عميل.</p>
+  </div>
+</section>
+
+<section id="analyzer" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>حلّل سيرتك الذاتية مجانًا</h2>
+      <p>ارفع ملفك واحصل على تقييم أولي فوري قبل أن نعيد كتابتها معًا.</p>
+    </div>
+
+    <div class="analyzer-shell reveal">
+
+      <div class="cv-steps">
+        <span class="cv-step active" data-step-indicator="1">1. رفع السيرة الذاتية</span>
+        <span class="cv-step" data-step-indicator="2">2. تحليل السيرة تلقائيًا</span>
+        <span class="cv-step" data-step-indicator="3">3. عرض النتيجة</span>
+      </div>
+
+      <!-- STEP 1: UPLOAD -->
+      <div id="uploadStage">
+        <div id="uploadZone" class="upload-zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 16V4M12 4l-4 4M12 4l4 4"/><path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+          <p>ارفع سيرتك الذاتية واحصل على تحليل أولي خلال لحظات</p>
+          <button type="button" id="chooseFileBtn" class="cta-primary">اختر ملف السيرة</button>
+          <p class="upload-hint">PDF أو DOCX، الحد الأقصى 10 ميجابايت</p>
+          <input type="file" id="cvFileInput" accept=".pdf,.docx" hidden>
+        </div>
+
+        <div id="fileSelected" class="file-selected" hidden>
+          <span id="fileName"></span>
+          <button type="button" id="removeFileBtn">إزالة</button>
+        </div>
+
+        <label class="consent-check">
+          <input type="checkbox" id="consentCheckbox">
+          أوافق على معالجة الملف لغرض تحليل السيرة الذاتية، وأفهم أنه لن يُنشر أو يُشارك.
+        </label>
+
+        <button type="button" id="startAnalysisBtn" class="cta-primary" disabled>ابدأ التحليل</button>
+
+        <div id="uploadError" class="upload-error" hidden></div>
+      </div>
+
+      <!-- STEP 2: LOADING -->
+      <div id="loadingStage" class="loading-state" hidden>
+        <div class="spinner"></div>
+        <p id="loadingMessage">جارٍ قراءة السيرة الذاتية…</p>
+      </div>
+
+      <!-- STEP 3: RESULTS -->
+      <div id="resultsStage" hidden>
+        <div class="score-overall">
+          <div class="score-circle"><span id="scoreNumber">0</span>/100</div>
+          <p id="scoreLabel"></p>
+        </div>
+
+        <div class="score-breakdown" id="scoreBreakdown"></div>
+
+        <div class="feedback-section strengths">
+          <h4>نقاط القوة</h4>
+          <ul id="strengthsList"></ul>
+        </div>
+
+        <div class="feedback-section weaknesses">
+          <h4>نقاط تحتاج إلى تحسين</h4>
+          <ul id="weaknessesList"></ul>
+        </div>
+
+        <div class="feedback-section improvements">
+          <h4>أهم 3 تحسينات مقترحة</h4>
+          <ul id="topImprovementsList"></ul>
+        </div>
+
+        <div class="result-cta-card">
+          <h3>تحليلك جاهز، لكن التحليل وحده لا يكفي</h3>
+          <p>دعنا نعيد كتابة سيرتك ونجهزها للتقديم على الوظيفة التي تستهدفها.</p>
+          <a id="improveBtn" class="cta-primary" target="_blank" rel="noopener" href="#">أريد تحسين سيرتي</a>
+          <button type="button" id="analyzeAnotherBtn" class="btn-secondary">تحليل سيرة أخرى</button>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="analyzer-privacy-note">
+      التحليل أولي وإرشادي، ولا يضمن القبول الوظيفي. تُستخدم السيرة لغرض التحليل فقط ولا تُنشر دون موافقة صاحبها.
+      يُحذف الملف تلقائيًا من الخادم فور اكتمال التحليل، ولا يُحتفظ به داخل المتصفح أو أي قاعدة بيانات.
+    </p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>الأسئلة الشائعة</h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item reveal">
+        <button class="faq-q">هل تضمنون الحصول على وظيفة؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>لا. نحن نُحسّن سيرتك ونوضح قيمتك بصورة احترافية، لكن قرار التوظيف يعود لجهة التوظيف.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">هل تضيفون معلومات غير موجودة؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>لا. نعيد صياغة خبراتك الحقيقية بأسلوب أوضح وأقوى، دون إضافة معلومات غير صحيحة.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">هل السيرة متوافقة مع ATS؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>نعمل على تنسيق السيرة وصياغتها بما يتوافق مع أنظمة فرز السير الذاتية ATS.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">ماذا أحتاج لإرسال الطلب؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>سيرتك الحالية إن وجدت، أو بيانات خبراتك، بالإضافة إلى الوظيفة أو المجال الذي تستهدفه.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">كم يستغرق التسليم؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>نحدد المدة معك مباشرة عبر واتساب بحسب حجم الطلب.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">هل بياناتي محفوظة؟<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>تُستخدم بياناتك فقط لتنفيذ طلبك، ولا تُنشر أو تُشارك دون موافقتك.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="final">
+  <div class="container">
+    <div class="final-cta reveal">
+      <h2>خلّ سيرتك تشرح قيمتك بوضوح</h2>
+      <p>أرسل سيرتك الحالية والوظيفة التي تستهدفها، ونبدأ بتحليلها.</p>
+      <a class="cta-primary" target="_blank" rel="noopener"
+         href="https://wa.me/966595092162?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9%20%D8%B6%D9%85%D9%86%20%D8%B9%D8%B1%D8%B6%20%D8%A7%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82.">
+        ابدأ عبر واتساب
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">أبرز — نحلل مسيرتك ونُبرز قيمتك</div>
+  <div>جميع الحقوق محفوظة © 2026</div>
+</footer>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.closest('.faq-item');
+      var wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(open){ open.classList.remove('open'); });
+      if(!wasOpen){ item.classList.add('open'); }
+    });
+  });
+
+  // Scroll reveal
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function(el){ observer.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+</script>
+
+<script>
+(function(){
+  var API_ENDPOINT = '/api/analyze-resume'; // نقطة الوصول للدالة الخلفية (Serverless Function)
+  var MAX_SIZE = 10 * 1024 * 1024; // 10 MB
+  var ALLOWED_EXT = ['pdf', 'docx'];
+  var WHATSAPP_NUMBER = '966595092162';
+
+  var uploadZone = document.getElementById('uploadZone');
+  var cvFileInput = document.getElementById('cvFileInput');
+  var chooseFileBtn = document.getElementById('chooseFileBtn');
+  var fileSelected = document.getElementById('fileSelected');
+  var fileName = document.getElementById('fileName');
+  var removeFileBtn = document.getElementById('removeFileBtn');
+  var consentCheckbox = document.getElementById('consentCheckbox');
+  var startAnalysisBtn = document.getElementById('startAnalysisBtn');
+  var uploadError = document.getElementById('uploadError');
+
+  var uploadStage = document.getElementById('uploadStage');
+  var loadingStage = document.getElementById('loadingStage');
+  var resultsStage = document.getElementById('resultsStage');
+  var loadingMessage = document.getElementById('loadingMessage');
+
+  var stepIndicators = document.querySelectorAll('.cv-step');
+
+  var scoreNumber = document.getElementById('scoreNumber');
+  var scoreLabel = document.getElementById('scoreLabel');
+  var scoreBreakdown = document.getElementById('scoreBreakdown');
+  var strengthsList = document.getElementById('strengthsList');
+  var weaknessesList = document.getElementById('weaknessesList');
+  var topImprovementsList = document.getElementById('topImprovementsList');
+  var improveBtn = document.getElementById('improveBtn');
+  var analyzeAnotherBtn = document.getElementById('analyzeAnotherBtn');
+
+  var selectedFile = null;
+
+  var BREAKDOWN_LABELS = {
+    atsCompatibility: 'التوافق مع ATS',
+    clarity: 'وضوح المعلومات',
+    summaryStrength: 'قوة الملخص المهني',
+    achievementsDescription: 'وصف الخبرات والإنجازات',
+    keywords: 'استخدام الكلمات المفتاحية',
+    sectionOrder: 'ترتيب الأقسام',
+    languageErrors: 'الأخطاء اللغوية والإملائية',
+    lengthReadability: 'طول السيرة وسهولة قراءتها',
+    contactInfoClarity: 'وضوح معلومات التواصل'
+  };
+
+  var LOADING_MESSAGES = [
+    'جارٍ قراءة السيرة الذاتية…',
+    'جارٍ تحليل المحتوى والترتيب…',
+    'جارٍ فحص قابلية القراءة بواسطة ATS…',
+    'جارٍ إعداد النتيجة…'
+  ];
+
+  function setStepIndicator(step){
+    stepIndicators.forEach(function(el){
+      var n = parseInt(el.getAttribute('data-step-indicator'), 10);
+      el.classList.remove('active', 'done');
+      if(n === step) el.classList.add('active');
+      else if(n < step) el.classList.add('done');
+    });
+  }
+
+  function showError(msg){
+    uploadError.textContent = msg;
+    uploadError.hidden = false;
+  }
+
+  function clearError(){
+    uploadError.hidden = true;
+    uploadError.textContent = '';
+  }
+
+  function updateStartButtonState(){
+    startAnalysisBtn.disabled = !(selectedFile && consentCheckbox.checked);
+  }
+
+  function getExtension(name){
+    return name.split('.').pop().toLowerCase();
+  }
+
+  function validateFile(file){
+    var ext = getExtension(file.name);
+    if(ALLOWED_EXT.indexOf(ext) === -1){
+      return 'صيغة الملف غير مدعومة. الرجاء رفع ملف PDF أو DOCX فقط.';
+    }
+    if(file.size > MAX_SIZE){
+      return 'حجم الملف يتجاوز 10 ميجابايت. الرجاء رفع ملف أصغر.';
+    }
+    if(file.size === 0){
+      return 'الملف فارغ. الرجاء التأكد من الملف والمحاولة مرة أخرى.';
+    }
+    return null;
+  }
+
+  function handleFile(file){
+    clearError();
+    var err = validateFile(file);
+    if(err){
+      selectedFile = null;
+      fileSelected.hidden = true;
+      updateStartButtonState();
+      showError(err);
+      return;
+    }
+    selectedFile = file;
+    fileName.textContent = file.name;
+    fileSelected.hidden = false;
+    updateStartButtonState();
+  }
+
+  chooseFileBtn.addEventListener('click', function(){ cvFileInput.click(); });
+
+  uploadZone.addEventListener('click', function(e){
+    if(e.target === chooseFileBtn) return;
+    cvFileInput.click();
+  });
+
+  cvFileInput.addEventListener('change', function(){
+    if(cvFileInput.files && cvFileInput.files[0]){
+      handleFile(cvFileInput.files[0]);
+    }
+  });
+
+  ['dragenter','dragover'].forEach(function(evt){
+    uploadZone.addEventListener(evt, function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      uploadZone.classList.add('drag-over');
+    });
+  });
+
+  ['dragleave','drop'].forEach(function(evt){
+    uploadZone.addEventListener(evt, function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      uploadZone.classList.remove('drag-over');
+    });
+  });
+
+  uploadZone.addEventListener('drop', function(e){
+    var dt = e.dataTransfer;
+    if(dt && dt.files && dt.files[0]){
+      handleFile(dt.files[0]);
+    }
+  });
+
+  removeFileBtn.addEventListener('click', function(){
+    selectedFile = null;
+    cvFileInput.value = '';
+    fileSelected.hidden = true;
+    updateStartButtonState();
+  });
+
+  consentCheckbox.addEventListener('change', updateStartButtonState);
+
+  var loadingInterval = null;
+
+  function startLoadingMessages(){
+    var i = 0;
+    loadingMessage.textContent = LOADING_MESSAGES[0];
+    loadingInterval = setInterval(function(){
+      i = (i + 1) % LOADING_MESSAGES.length;
+      loadingMessage.textContent = LOADING_MESSAGES[i];
+    }, 1800);
+  }
+
+  function stopLoadingMessages(){
+    if(loadingInterval){ clearInterval(loadingInterval); loadingInterval = null; }
+  }
+
+  function getScoreLabel(score){
+    if(score >= 80) return 'سيرة قوية';
+    if(score >= 60) return 'جيدة وتحتاج بعض التحسين';
+    if(score >= 40) return 'تحتاج تحسينًا واضحًا';
+    return 'تحتاج إعادة بناء';
+  }
+
+  function renderBreakdown(breakdown){
+    scoreBreakdown.innerHTML = '';
+    Object.keys(BREAKDOWN_LABELS).forEach(function(key){
+      var value = Math.max(0, Math.min(100, Math.round(breakdown[key] || 0)));
+      var row = document.createElement('div');
+      row.className = 'score-row';
+      row.innerHTML =
+        '<div class="score-row-top"><span>' + BREAKDOWN_LABELS[key] + '</span><b>' + value + '</b></div>' +
+        '<div class="score-bar-track"><div class="score-bar-fill" style="width:' + value + '%"></div></div>';
+      scoreBreakdown.appendChild(row);
+    });
+  }
+
+  function renderList(ul, items, className){
+    ul.innerHTML = '';
+    ul.parentElement.classList.add(className);
+    (items || []).forEach(function(text){
+      var li = document.createElement('li');
+      li.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg><span></span>';
+      li.querySelector('span').textContent = text;
+      ul.appendChild(li);
+    });
+  }
+
+  function buildWhatsappLink(score){
+    var msg = 'السلام عليكم، حللت سيرتي عبر موقع أبرز وأرغب في تحسينها وإعادة كتابتها. تقييمي هو: ' + score + '/100';
+    return 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+  }
+
+  function renderResults(result){
+    var score = Math.max(0, Math.min(100, Math.round(result.overallScore || 0)));
+    scoreNumber.textContent = score;
+    scoreLabel.textContent = getScoreLabel(score);
+    renderBreakdown(result.breakdown || {});
+    renderList(strengthsList, result.strengths, 'strengths');
+    renderList(weaknessesList, result.weaknesses, 'weaknesses');
+    renderList(topImprovementsList, result.topImprovements, 'improvements');
+    improveBtn.href = buildWhatsappLink(score);
+  }
+
+  function resetTool(){
+    selectedFile = null;
+    cvFileInput.value = '';
+    fileSelected.hidden = true;
+    consentCheckbox.checked = false;
+    updateStartButtonState();
+    clearError();
+    resultsStage.hidden = true;
+    uploadStage.hidden = false;
+    setStepIndicator(1);
+  }
+
+  analyzeAnotherBtn.addEventListener('click', resetTool);
+
+  startAnalysisBtn.addEventListener('click', function(){
+    if(!selectedFile || !consentCheckbox.checked) return;
+    clearError();
+
+    uploadStage.hidden = true;
+    loadingStage.hidden = false;
+    setStepIndicator(2);
+    startLoadingMessages();
+
+    var formData = new FormData();
+    formData.append('resume', selectedFile);
+
+    fetch(API_ENDPOINT, { method: 'POST', body: formData })
+      .then(function(res){
+        return res.json().then(function(data){
+          return { ok: res.ok, data: data };
+        });
+      })
+      .then(function(result){
+        stopLoadingMessages();
+        if(!result.ok){
+          loadingStage.hidden = true;
+          uploadStage.hidden = false;
+          setStepIndicator(1);
+          showError(result.data && result.data.error ? result.data.error : 'تعذّر تحليل الملف. حاول مرة أخرى.');
+          return;
+        }
+        renderResults(result.data);
+        loadingStage.hidden = true;
+        resultsStage.hidden = false;
+        setStepIndicator(3);
+      })
+      .catch(function(){
+        stopLoadingMessages();
+        loadingStage.hidden = true;
+        uploadStage.hidden = false;
+        setStepIndicator(1);
+        showError('تعذّر الاتصال بالخادم. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.');
+      });
+  });
+})();
+</script>
+
+</body>
+</html>
